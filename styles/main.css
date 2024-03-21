@@ -1,0 +1,23 @@
+.tabulado * {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.tabulado .center > * {
+    margin: 5px 28.571%;
+}
+.tabulado .center button {
+    background-color: lightgreen;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.513);
+}
+.tabulado .center button:not(:hover) {
+    background-color: chartreuse;
+    scale: 90%;
+    box-shadow: none;
+}
